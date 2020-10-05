@@ -1,7 +1,0 @@
-[masters]
-master ansible_host="k8s node address" ansible_user=centos
-
-[workers]
-node-1 ansible_host="k8s node address" ansible_user=centos
-node-2 ansible_host="k8s node address" ansible_user=centos
-

@@ -29,3 +29,6 @@
      args:
        chdir: $HOME
        creates: pod_network_setup.txt
+   
+   - name: install git
+     shell: yum install -y git
